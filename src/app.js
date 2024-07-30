@@ -10,7 +10,7 @@ const corsOptions = require('./config/corsOptions');
 const connectDB = require('./config/connectDB.js');
 
 const app = express();
-const PORT = process.env.APP_PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 const indexRouter = require('./routes/index');
 
