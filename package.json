@@ -2,7 +2,7 @@
 	"name": "express-rest-api-starter",
 	"version": "1.0.0",
 	"private": true,
-	"description": "Develop a URL Shortener application using Node.js, Express, and MongoDB that shortens long URLs and tracks analytics for each shortened URL. This project will evaluate the candidate’s skills in API design and analytics tracking.",
+	"description": "Quick start for Express.js REST API development.",
 	"scripts": {
 		"start": "node ./src/app.js",
 		"dev": "nodemon ./src/app.js"
