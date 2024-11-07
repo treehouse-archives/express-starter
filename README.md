@@ -1,6 +1,7 @@
 # Express REST API Starter Template
 
-This template provides a foundational structure for building a robust RESTful API using `express.js`. It's designed to help you quickly set up a scalable and maintainable backend for your web applications or services.
+This template provides a foundational structure for building a robust RESTful API using `express.js`. It's designed to
+help you quickly set up a scalable and maintainable backend for your web applications or services.
 
 ## Features
 
@@ -32,7 +33,7 @@ This template provides a foundational structure for building a robust RESTful AP
 |   |-- /routes          # API route definitions
 |   |-- /utils           # Utility functions
 |   |-- /tests           # Unit and integration tests
-|   |-- app.js        # Entry point of the application
+|   |-- server.js        # Entry point of the application
 |-- .env                 # Environment variables
 |-- .gitignore           # Git ignore rules
 |--  package.json        # NPM dependencies and scripts
