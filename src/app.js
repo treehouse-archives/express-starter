@@ -45,15 +45,14 @@ app.all("*", (req, res) => {
 app.use(errorHandler);
 
 
+// connect to mongoDB
 mongoose.connection.once("open", () => {
   console.log("Connected to MongoDB.");
   app.listen(PORT, () => console.log(`Server running on port ${PORT}.`));
 });
 
+// if any connection error occurs
 mongoose.connection.on("error", (err) => {
-  console.error(err);
-  logEvents(
-    `${err.no}: ${err.code}\t${err.syscall}\t${err.hostname}`,
-    "mongoError.log",
-  );
+  console.error(err.message);
+  logEvents(err.message, "mongoError.log");
 });
