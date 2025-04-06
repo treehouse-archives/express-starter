@@ -1,0 +1,1 @@
+{"root":["../src/app.ts","../src/config/connect-db.ts","../src/config/cors-options.ts","../src/middlewares/error-handler.middleware.ts","../src/middlewares/logger.middleware.ts","../src/routes/index.route.ts"],"version":"5.8.3"}

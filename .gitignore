@@ -11,3 +11,5 @@ logs
 .env
 .env.local
 .env.production
+
+.dist
