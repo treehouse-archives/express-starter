@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+public
+
+.prettierrc
+
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+nodemon.json
+
+README.md
