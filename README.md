@@ -1,4 +1,4 @@
-# Express REST API Starter Template
+# Express Starter Template
 
 This template provides a foundational structure for building a robust RESTful API using `express.js`. It's designed to help you quickly set up a scalable and maintainable backend for your web applications or services.
 
