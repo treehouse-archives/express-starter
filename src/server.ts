@@ -6,8 +6,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-import corsOptions from "./config/cors-options";
-import connectDB from "./config/connect-db";
+import corsOptions from "./lib/utils/cors-options";
+import connectDB from "./lib/utils/connect-db";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
